@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Пишу что хочу, законом не запрещено</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1 class="h">Список дел</h1>
+                <form onsubmit="newElement(); return false">
+                <input type="text" placeholder="Чем стоит заняться сегодня?" id="toDoEl" class="Item" autofocus>
+                <button type="submit" class="addBtn">Добавить</button>
+                </form>
+            </div>
+            <div class="draggable">
+                <ul id="list"></ul>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

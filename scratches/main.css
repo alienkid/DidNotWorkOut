@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    background: #C0C0C0;
+}
+
+input {
+    border: none;
+    width: 75%;
+    padding: 12px;
+    float: left;
+    font: 16px "Courier New";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font: 16px "Courier New";
+}
+
+ul li {
+    border: dashed 1px #296d56;
+    border-radius: 45px;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #5F9EA0;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+ul li:hover {
+    background: rgba(14, 69, 77, 0.62);
+}
+
+ul li.done {
+    border: solid 1px #296d56;
+    background: #3d5e62;
+    color: #000000;
+    text-decoration: line-through;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 30px auto
+}
+
+.delete {
+    border: none;
+    border-radius: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 13px 16px 13px 16px;
+    font: 16px "Courier New";
+}
+
+.delete:hover {
+    background-color: #a43e38;
+    color: white;
+}
+
+.header {
+    border: 5px double #3c7966;
+    background-color: #2F4F4F;
+    padding: 30px 40px;
+    color: #DCDCDC;
+    text-align: center;
+    font: 30px "Courier New";
+}
+
+.h{
+    background: #2F4F4F;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Item {
+    border-radius: 5px;
+}
+
+.addBtn {
+    border: none;
+    border-radius: 45px;
+    padding: 12px;
+    width: 25%;
+    background: #708090;
+    color: #D3D3D3;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font: 16px "Courier New";
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
